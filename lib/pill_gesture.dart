@@ -4,13 +4,13 @@ class PillGesture extends StatelessWidget {
   final GestureDragStartCallback onVerticalDragStart;
   final GestureDragUpdateCallback onVerticalDragUpdate;
   final GestureDragEndCallback onVerticalDragEnd;
-  final Color pillColor;
+  final Color? pillColor;
 
   PillGesture({
-    @required this.onVerticalDragStart,
-    @required this.onVerticalDragUpdate,
-    @required this.onVerticalDragEnd,
-    @required this.pillColor,
+    required this.onVerticalDragStart,
+    required this.onVerticalDragUpdate,
+    required this.onVerticalDragEnd,
+    required this.pillColor,
   });
 
   @override
