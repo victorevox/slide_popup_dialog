@@ -1,3 +1,6 @@
+## [0.1.0] - 09/08/21
+
+* Null safety 
 ## [0.0.1] - I don't remember.
 
 Initial release.
