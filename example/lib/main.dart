@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       context: context,
       child: Text("Hello World"),
       // barrierColor: Colors.white.withOpacity(0.7),
-      // pillColor: Colors.red,
+      pillColor: Colors.red,
       // backgroundColor: Colors.yellow,
     );
   }

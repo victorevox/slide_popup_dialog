@@ -21,19 +21,19 @@ class PillGesture extends StatelessWidget {
       onVerticalDragUpdate: onVerticalDragUpdate,
       onVerticalDragEnd: onVerticalDragEnd,
       child: Container(
-        width: double.infinity,
+        width: double.maxFinite,
         child: Column(
           children: <Widget>[
-            SizedBox(height: 10.0),
             Container(
+              margin: EdgeInsets.only(top: 10, bottom: 20),
               height: 5.0,
               width: 25.0,
+              clipBehavior: Clip.antiAliasWithSaveLayer,
               decoration: BoxDecoration(
                 color: pillColor ?? Colors.blueGrey[200],
                 borderRadius: BorderRadius.circular(50.0),
               ),
             ),
-            SizedBox(height: 20.0),
           ],
         ),
       ),
