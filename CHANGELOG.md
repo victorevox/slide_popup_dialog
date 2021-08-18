@@ -1,3 +1,6 @@
+## [0.1.1] - 18/08/21
+* Some minor fixes
+
 ## [0.1.0] - 09/08/21
 
 * Null safety 
